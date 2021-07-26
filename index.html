@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--style sheet-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--over style-->
+    <style>
+    
+    .card-img{
+      height: 252px;
+      width: 278px;
+    }
+    .card{
+      width:279px ;
+      height: 438px;
+    }
+    
+      
+    
+    </style>
+</head>
+<body>
+   <header>
+       <!--nav part-->
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container ">
+          <a class="navbar-brand " href="#">
+            <img class="rounded-circle" src="images/profile/profile-1.jpg" alt="" width="50" height="50">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+         
+         
+          <div class="collapse  navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Robot">Robot</a>
+              </li>
+         
+              <li class="nav-item">
+                <a class="nav-link" href="#Laptop">Laptop</a> 
+              </li> <li class="nav-item">
+                <a class="nav-link" href="#Mobile">Mobile</a>
+              </li> 
+            </li> <li class="nav-item">
+              <a class="nav-link" href="#Architecture">Architecture</a>
+            </li> 
+          </li> <li class="nav-item">
+            <a class="nav-link" href="#Subcribe">Subcribe</a>
+          </li> 
+        
+        
+        
+         </ul>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <!--slider-->
+      
+      <section class="container bg-success h-100">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <!--1st slide-->
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 d-flex align-items-center">
+                 <div>
+                  <h1>World famous Robot</h1>
+                  <h1>$500</h1> 
+                 </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 p-5">
+                  <img class="w-50 " src="images/slide/slider-1.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          <!---->
+          <!--2nd slide-->
+          <div class="carousel-item ">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 d-flex align-items-center">
+               <div>
+                <h1>Iphone-12 pro-max</h1>
+                <h1>$2000</h1>
+               </div>
+               
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 p-5">
+                <img class="w-50" src="images/slide/slider-2.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+         </div>
+          <!---->
+         <!--3rd slide-->
+         <div class="carousel-item ">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 d-flex align-items-center">
+               <div>
+                <h1>MAckbook</h1>
+               <h1>$3000</h1>
+               </div>
+               
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 p-5">
+                <img class="w-100 p-3" src="images/slide/slider-3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+         </div>
+         <!---->
+         <!--4th slider-->
+         <div class="carousel-item ">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 d-flex align-items-center">
+               <div>
+                <h1>Famous place</h1>
+               <h1>Vist this place</h1>
+               </div>
+               
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 p-5">
+                <img class="w-100 p-3" src="images/slide/slider-4.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+         </div>
+          
+         <!----> 
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+      
+  
+   
+   </header>
+
+  <main>
+    <!--robot-->
+    <section>
+            <h1 class=" d-flex justify-content-center p-5" id="Robot">Robot</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3  gy-5">
+        <div class="col d-flex justify-content-around">
+          <div class="card">
+            <img class="card-img" src="images/robot/robot-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to a</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-around">
+          <div class="card">
+            <img class="card-img" src="images/robot/robot-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additi.</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-around">
+          <div class="card">
+            <img class="card-img" src="images/robot/robot-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-around">
+          <div class="card">
+            <img class="card-img" src="images/robot/robot-4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to addit</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-around">
+          <div class="card">
+            <img class="card-img" src="images/robot/robot-5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div><div class="col d-flex justify-content-around">
+          <div class="card">
+            <img class="card-img" src="images/robot/robot-6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--laptop-->
+    
+      <section>
+        <h1 class=" d-flex justify-content-center p-5" id="Laptop">Laptop</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5">
+       <div class="col d-flex justify-content-around">
+       <div class="card">
+        <img class="card-img" src="images/laptop/laptop-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content 
+        is a little bit longer.</p>
+        <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-around">
+      <div class="card">
+        <img class="card-img" src="images/laptop/laptop-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+         <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+        </div>
+       </div>
+      <div class="col d-flex justify-content-around">
+      <div class="card">
+        <img class="card-img" src="images/laptop/laptop-3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+     </div>
+    <div class="col d-flex justify-content-around">
+      <div class="card">
+        <img class="card-img" src="images/laptop/laptop-4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content 
+        is a little bit longer.</p>
+        <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-around">
+      <div class="card">
+        <img class="card-img" src="images/laptop/laptop-5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div><div class="col d-flex justify-content-around">
+      <div class="card">
+        <img class="card-img" src="images/laptop/laptop-6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+    <!--mobile-->
+    <section>
+      <h1 class=" d-flex justify-content-center p-5" id="Mobile">Mobile</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5">
+     <div class="col d-flex justify-content-around">
+     <div class="card">
+      <img class="card-img" src="images/mobile/mobile-1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content 
+      is a little bit longer.</p>
+      <a href="#" class="btn btn-primary">Buy Now</a>
+      </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-around">
+    <div class="card">
+      <img class="card-img" src="images/mobile/mobile-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+       <a href="#" class="btn btn-primary">Buy Now</a>
+      </div>
+      </div>
+     </div>
+    <div class="col d-flex justify-content-around">
+    <div class="card">
+      <img class="card-img" src="images/mobile/mobile-3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Buy Now</a>
+      </div>
+    </div>
+   </div>
+   <div class="col d-flex justify-content-around">
+    <div class="card">
+      <img class="card-img" src="images/mobile/mobile-4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content 
+      is a little bit longer.</p>
+      <a href="#" class="btn btn-primary">Buy Now</a>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-around">
+    <div class="card">
+      <img class="card-img" src="images/mobile/mobile-5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Buy Now</a>
+      </div>
+    </div>
+   </div><div class="col d-flex justify-content-around">
+    <div class="card">
+      <img class="card-img" src="images/mobile/mobile-6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Buy Now</a>
+      </div>
+    </div>
+   </div>
+   </div>
+    </section>
+    <!--Arc-->
+    <section>
+      <h1 class=" d-flex justify-content-center p-5" id="Architecture">Architecture</h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5">
+     <div class="col d-flex justify-content-around">
+     <div class="card">
+      <img class="card-img" src="images/arc/arc-1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-around">
+    <div class="card">
+      <img class="card-img" src="images/arc/arc-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+       <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      </div>
+     </div>
+    <div class="col d-flex justify-content-around">
+    <div class="card">
+      <img class="card-img" src="images/arc/arc-3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+   </div>
+   <div class="col d-flex justify-content-around">
+    <div class="card">
+      <img class="card-img" src="images/arc/arc-4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    </div>
+    <div class="col d-flex justify-content-around">
+    <div class="card">
+      <img class="card-img" src="images/arc/arc-5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+   </div><div class="col d-flex justify-content-around">
+    <div class="card">
+      <img class="card-img" src="images/arc/arc-6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+   </div>
+   </div>
+    </section>
+    <br>
+    
+     <section  >
+       
+       
+ 
+       
+      <h1 class=" d-flex justify-content-center p-5" id="Subcribe">Subcribe</h1>
+      
+      <form class="bg-light">
+        <div class="row mb-6 d-flex justify-content-center p-5">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
+          <div class="col-sm-6">
+            <input type="email" class="form-control" id="inputEmail3">
+          </div>
+        </div>
+        <div class="row mb-6 d-flex justify-content-center p-5">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Password:</label>
+          <div class="col-sm-6">
+            <input type="password" class="form-control" id="inputPassword3">
+          </div>
+        </div>
+      
+        
+       <div class="d-flex justify-content-center p-5">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+       </div>
+      </form>
+      
+     </section>
+   
+       
+       <footer class="d-flex justify-content-center">All are reserved by © Doggy 2021      </footer>
+   
+  
+   
+  </main>
+
+   <script src="js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
